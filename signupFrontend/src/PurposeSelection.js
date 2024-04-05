@@ -30,7 +30,7 @@ export default function PurposeSelection({ formData, setFormData }) {
     });
 
     try {
-      const response = await axios.post("http://localhost:8000/signup", {
+      const response = await axios.post("https://signup-48r6.onrender.com/signup", {
         userData: formData,
       });
       Swal.close();

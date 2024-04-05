@@ -46,7 +46,7 @@ export default function SignUpForm({ formData, setFormData }) {
     });
     try {
       const response = await axios.post(
-        "http://localhost:8000/check-username",
+        "https://signup-48r6.onrender.com/check-username",
         {
           username: formData.username,
         }

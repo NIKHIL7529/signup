@@ -1,10 +1,10 @@
 {
   "name": "signup-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "signup backend",
   "main": "index.js",
   "scripts": {
-    "build":"npm run build",
+    "build":"npm i",
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

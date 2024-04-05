@@ -28,7 +28,7 @@ export default function WelcomeScreen({ formData, setFormData }) {
         const photo = reader.result;
         console.log(photo);
         try {
-          const response = await axios.post("http://localhost:8000/photo", {
+          const response = await axios.post("https://signup-48r6.onrender.com/photo", {
             photo: photo,
           });
           Swal.close();
